@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="css/styles.css">
    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
    <script src="js/scripts.js" type="text/javascript"></script>
@@ -24,6 +24,13 @@
             </div>
             <div id="new-addresses">
               <div class="new-address">
+                <label for="addressType">Address Type</label>
+                <select class="form-control" id="addressType">
+                  <option>Home Address:</option>
+                  <option>Work Address:</option>
+                  <option>Mailing Address:</option>
+                </select>
+                <br>
                 <div class="form-group">
                   <label for="new-street">Street</label>
                   <input type="text" class="form-control new-street">
